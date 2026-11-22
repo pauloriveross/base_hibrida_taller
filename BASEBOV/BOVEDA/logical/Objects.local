@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1C0021D9-17A1-5D92-E115-B1544E678075" name="CLIENTE_BOV" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAD899C0-6717-1179-BCD6-115C68AA1B81" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="271BDA70-D45B-65B1-29B9-4908ABDC5507" name="FICHA_CLIENTE_BOV" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAD899C0-6717-1179-BCD6-115C68AA1B81" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="19DF0255-7639-37E8-D51F-EB4808FF9E1E" name="METRICAS_CLI_BOV" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAD899C0-6717-1179-BCD6-115C68AA1B81" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7D2693A2-993E-C1B7-35C8-F0699D5B60AA" name="PATOLOGIAS_POV" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAD899C0-6717-1179-BCD6-115C68AA1B81" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E4B3E679-7E21-E833-9E1D-5134078152DF" name="PREPARADOR_BOV" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAD899C0-6717-1179-BCD6-115C68AA1B81" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

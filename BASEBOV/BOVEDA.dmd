@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BOVEDA" id="9A35F6B5-2EC5-B6D9-C52B-7963EFADDC6A" version="3.5">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:40:39 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9A35F6B5-2EC5-B6D9-C52B-7963EFADDC6A</designId>
+</OSDM_Design>

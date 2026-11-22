@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C0021D9-17A1-5D92-E115-B1544E678075" name="CLIENTE_BOV">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:40:46 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="00AF69F7-D92E-FE70-B82B-BB68F6555E16">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:41:19 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="85D79707-0037-DE4B-D1FA-7B45B7E08C68">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:41:46 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_huella" id="38F1CDE8-F9B0-547E-8B33-423C15A3F1B0">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:41:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pnom_cli_cifra" id="A7792A36-BA9B-AA94-2580-4D37F3B99EDE">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:42:21 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="snom_cli_cifra" id="2185EBBB-1803-D09B-6804-D3AE942A1B19">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:42:49 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pape_cli_cifra" id="7B8EB434-AF76-E214-C81C-B1421ABDD9C1">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:43:00 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sape_cli_cifra" id="84CC61F0-5E4D-3FFF-0351-D8F8B44FE5E7">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:43:15 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac_cifra" id="20CDE390-10F2-915D-C08F-28D760F61460">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:43:27 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad_cli" id="DF8EBDD0-116D-CCB7-1997-1F435F2317FA">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:43:37 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_cli_cifra" id="7E0F8B01-5660-BCF1-BD51-B2A434C30A01">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:43:52 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_cli_cifra" id="C193E1CF-CC95-32B8-EE6A-98422ED9A572">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:44:15 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BF67648-A39B-DC19-3A69-F274EBD1DF92" name="CLIENTE_BOV PK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-22 13:41:41 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="EC1DC8B9-C021-8990-4C3A-A40F7EC0A031" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00AF69F7-D92E-FE70-B82B-BB68F6555E16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

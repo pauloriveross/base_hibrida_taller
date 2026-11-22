@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BASEOP" id="A07B7045-6419-5F02-98D4-0A5B91D01C2D" version="3.5">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-21 13:52:31 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A07B7045-6419-5F02-98D4-0A5B91D01C2D</designId>
+</OSDM_Design>

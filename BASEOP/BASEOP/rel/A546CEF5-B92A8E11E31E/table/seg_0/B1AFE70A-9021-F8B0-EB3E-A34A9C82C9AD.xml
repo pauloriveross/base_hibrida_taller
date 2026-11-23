@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1AFE70A-9021-F8B0-EB3E-A34A9C82C9AD" name="PAGO_OP">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>87DB7382-9230-A4B4-3C7B-62B6591DEF22</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="279B86D6-B883-9D05-DA8A-67CC700B9127">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>7B8D6099-03BA-18A2-A3CD-CA400242E9E8</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_pago" id="67E087A2-F27C-EF07-53CE-A84611783A13">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>214EECFB-ACC1-9E0F-5062-7D754DC57335</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pago" id="33B0CBC7-558B-8D53-4AC1-D8E095E5AB3A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>A86D21EF-6E36-FBFC-9CB8-E8A7E607FCE4</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_pago" id="794FFF8E-720B-DEBB-8DCE-6673BD01FF85">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>906D2383-673D-B2F8-C464-96FA25AC84DA</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONT_CLI_OP_id_contrato" id="DEDBCBEB-8862-C473-87A0-19EB9C48087D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>8A1F16BA-ABB2-ECAC-DF45-A2602DC3D5C8</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="410EDCC0-1EAE-AF7A-F3E4-BE53D803E455" referredColumn="582F7E6C-53D9-4E73-3FFD-5CA108197DF0"/>
+</associations>
+</Column>
+<Column name="MET_PAGO_CLI_OP_id_met_pago" id="1DB6B686-92B0-0C7D-FF9F-81FCD6584BB6">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>FE83CD0D-A196-5D29-33AC-93E64BD55184</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C50FB87A-2BC8-11E7-2757-5859509BFCE2" referredColumn="3FCF57E1-0A0E-112C-0577-92CD44FE5497"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B31733D1-0AEA-EB3C-1436-AE55B99F0A05" name="PAGO_OP_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>E9AA377C-2B38-C85D-FB3C-F0F962C0C0A4</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="279B86D6-B883-9D05-DA8A-67CC700B9127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A771DE2-27CE-2BB7-07AB-CA76A2FF6C6A" name="PAGO_OP_CONT_CLI_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>EA50567E-184D-AAD9-2000-A5EF753E0FEB</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEDBCBEB-8862-C473-87A0-19EB9C48087D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C2DB9E-1C46-52CC-6A9B-4BBA78422558" name="PAGO_OP_MET_PAGO_CLI_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>A01BD731-7CBB-ED8F-4DBE-9FA953F2D331</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DB6B686-92B0-0C7D-FF9F-81FCD6584BB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

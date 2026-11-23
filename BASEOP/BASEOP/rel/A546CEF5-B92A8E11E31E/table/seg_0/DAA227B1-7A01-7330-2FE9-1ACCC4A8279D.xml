@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAA227B1-7A01-7330-2FE9-1ACCC4A8279D" name="CENTRO_DEP_OP">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>CB71E189-B548-2560-1BCA-3D424E452A5D</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_centro" id="E303B83B-A6B6-A8F1-C839-644A51219493">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>FD8E07F9-24E0-189B-765B-B737818FA45C</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_centro" id="42EA4D9C-BFF4-7382-D1C5-58AA706CB023">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>D5F4ECEC-AF5B-486A-110A-4192D86A130E</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_centro" id="BC5357A0-D79A-F12E-100A-20965C13688D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>490228B4-F693-9B8F-6558-BDE0B24A6CD1</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dir_centro" id="0017E0F9-7EF2-9F90-F582-F0315017C48E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>89514D3D-A4F1-6B12-4AC0-F468B1D94B72</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_OP_id_comuna" id="2681A0B3-992D-9CD9-E3D8-7EA6D7FD87CD">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>3A43440B-F051-10DD-80C5-EC1F05B56C02</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F7A1E5C-C898-99E8-CDF4-6D4158A058EF" referredColumn="74156A0E-3B4B-571D-A966-659C1EB44377"/>
+</associations>
+</Column>
+<Column name="COMUNA_OP_CIUDAD_OP_id_ciudad" id="51BD696B-D2C2-9296-FBE1-AD4C25F66280">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>5EF70EE4-34AA-1F5F-F6D1-B09DD9CE1967</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F7A1E5C-C898-99E8-CDF4-6D4158A058EF" referredColumn="C0957752-2CF0-8966-6A31-4CA257E08E3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF3E3789-7FAD-66BA-B536-61CA8D242B06" name="CENTRO_DEP_OP_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>3AA95E6A-FC6A-CD1C-C2E4-A51C41799E3B</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E303B83B-A6B6-A8F1-C839-644A51219493"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE50A37A-CFA5-81F7-D83B-ED9D93925419" name="CENTRO_DEP_OP_COMUNA_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>87F0137D-4148-8F2F-6BC4-C93849A89317</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2681A0B3-992D-9CD9-E3D8-7EA6D7FD87CD"/>
+<colUsage columnID="51BD696B-D2C2-9296-FBE1-AD4C25F66280"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

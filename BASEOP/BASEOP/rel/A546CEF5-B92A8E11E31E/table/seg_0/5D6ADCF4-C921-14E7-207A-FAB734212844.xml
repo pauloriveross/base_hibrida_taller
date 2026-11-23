@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D6ADCF4-C921-14E7-207A-FAB734212844" name="CONTENER">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUTINA_OP_id_rutina" id="62E63365-C437-335B-3655-BB9252568F7E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6342E63E-5AFB-40EC-AF4C-AB7AC807688E" referredColumn="3102D322-E365-2BC3-EFE0-5E6D6E3B50CF"/>
+</associations>
+</Column>
+<Column name="EJERCICIO_OP_id_ejercicio" id="3A048780-8CD8-A150-1C75-62806E6BAEE1">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FDAB614-F973-C215-4C7D-B92E49AE1556" referredColumn="88256F2A-85D8-B96B-B175-6DEA5AAE5CC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65C7C5C5-AD79-2F49-F9F0-B182936C10AD" name="CONTENER_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62E63365-C437-335B-3655-BB9252568F7E"/>
+<colUsage columnID="3A048780-8CD8-A150-1C75-62806E6BAEE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="887EF314-7984-4368-0DCE-07073FB2E98B" name="CONTENER_RUTINA_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>167340B5-325F-8310-47B0-B9ED877E5A83</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62E63365-C437-335B-3655-BB9252568F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B657A60-CFBB-08BA-C653-E80E69CEB74A" name="CONTENER_EJERCICIO_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>167340B5-325F-8310-47B0-B9ED877E5A83</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A048780-8CD8-A150-1C75-62806E6BAEE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

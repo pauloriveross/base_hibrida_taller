@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCB47542-15F1-FE60-943B-9760AA030F8D" containerWithKeyObject="30DBC56D-13AC-35A8-9459-2A0A1ECC2095" localFKIndex="25778144-F172-0A6B-2C6C-9F95C5E48BD6" name="OFRECER_PREP_FISICO_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>08DCC68E-393B-32EF-3CDE-CC4E7E334514</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<referredTableLongName>PREP_FISICO_OP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D722E968-7C43-165A-3FAB-DAF6847C149B</referredTableID>
+<keyObject>1610F979-79D5-5896-3447-C14E1CA667B4</keyObject>
+<referredKeyID>1610F979-79D5-5896-3447-C14E1CA667B4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_prep</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

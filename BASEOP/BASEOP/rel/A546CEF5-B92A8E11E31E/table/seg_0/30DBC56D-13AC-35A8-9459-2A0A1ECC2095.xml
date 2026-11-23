@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30DBC56D-13AC-35A8-9459-2A0A1ECC2095" name="OFRECER">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PREP_FISICO_OP_id_preparador" id="C157F4D0-BB65-9E7D-4BA8-57352C84071A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCB47542-15F1-FE60-943B-9760AA030F8D" referredColumn="20CCF488-E484-A983-A509-8FD3DCB9A9CE"/>
+</associations>
+</Column>
+<Column name="PLAN_OP_id_plan" id="10CA5531-8E2F-BFA8-2A1D-FEFD9BED8CF6">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB66904B-0D6F-8529-C0C9-7116422A4AD4" referredColumn="08992D12-C21A-5373-38E4-820FD6594322"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A2DD1BD-D5AF-5947-561A-ABC4D0AF5984" name="OFRECER_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C157F4D0-BB65-9E7D-4BA8-57352C84071A"/>
+<colUsage columnID="10CA5531-8E2F-BFA8-2A1D-FEFD9BED8CF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25778144-F172-0A6B-2C6C-9F95C5E48BD6" name="OFRECER_PREP_FISICO_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>08DCC68E-393B-32EF-3CDE-CC4E7E334514</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C157F4D0-BB65-9E7D-4BA8-57352C84071A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15AF3BBB-BE5D-FB60-8839-AB19F43240DF" name="OFRECER_PLAN_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>08DCC68E-393B-32EF-3CDE-CC4E7E334514</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10CA5531-8E2F-BFA8-2A1D-FEFD9BED8CF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

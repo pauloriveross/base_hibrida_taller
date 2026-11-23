@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53A3218F-A170-CD69-FF92-128ADF6B0DF3" name="BLOQ_HORARIO_OP">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>16C40813-A90E-593D-04CF-8276001B99FA</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bloque" id="2F2FC886-7DE6-74FD-A898-2C3FE4E15413">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>022434B8-FDFB-4DD9-5C24-80855414FEFD</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia_bloque" id="736A0CBE-C1CE-44E3-D565-20096B2F858A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>709B7802-AE67-25C2-DC60-9D4C61C16AF2</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_bloque" id="BD032FBB-754E-B0F3-CA69-F2E5D6DD6E77">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>423F70E4-4DA4-6552-81CD-221B55840B4D</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENDA_OP_id_agenda" id="5FB4A008-9433-67CD-298A-10153D1DE4D6">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>ECF8D7BD-21D4-65D6-3244-85DAD6996908</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49C3F26C-5D8D-9544-C882-69EB1198A59B" referredColumn="8B993CB5-410C-78B4-5A03-C3E188842B7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F38D706-DDB9-EFBD-BAD5-713D04C2A37D" name="BLOQ_HORARIO_OP_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>02561EBC-9E3B-D02D-A64E-F87DEE4C0331</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F2FC886-7DE6-74FD-A898-2C3FE4E15413"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E6039CD-B2D7-E2A2-757E-1A5259B74819" name="BLOQ_HORARIO_OP_AGENDA_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>3E94BF63-F082-9A56-F1B7-38C6B5A60609</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FB4A008-9433-67CD-298A-10153D1DE4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

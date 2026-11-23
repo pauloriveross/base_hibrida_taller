@@ -30,7 +30,7 @@
 <dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut_cifrado" id="CEDCD4C9-4C6E-4922-902C-7EEE10969A84">
+<Attribute name="rut_cliente" id="CEDCD4C9-4C6E-4922-902C-7EEE10969A84">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>CEDCD4C9-4C6E-4922-902C-7EEE10969A84</generatorID>
@@ -43,20 +43,6 @@
 <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rut_huella" id="6846BCD1-8D5D-4136-BEA6-43A321800C35">
-<createdBy>moka</createdBy>
-<createdTime>2026-11-22 23:12:55 UTC</createdTime>
-<generatorID>6846BCD1-8D5D-4136-BEA6-43A321800C35</generatorID>
-<ownerDesignName>BOVEDA</ownerDesignName>
-<engineerTo>
-<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="pnombre_cliente_cif" id="B9CEB335-0333-4159-B6E2-5DCC0A09F28A">
 <createdBy>moka</createdBy>

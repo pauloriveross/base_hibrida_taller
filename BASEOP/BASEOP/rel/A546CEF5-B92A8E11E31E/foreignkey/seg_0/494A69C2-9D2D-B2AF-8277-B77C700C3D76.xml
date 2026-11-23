@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="494A69C2-9D2D-B2AF-8277-B77C700C3D76" containerWithKeyObject="8B279606-6202-C9A1-1107-455895D1DB86" localFKIndex="734A84A0-1BB1-9297-2D7F-B956230DCBCA" name="SESION_ENTRE_OP_AGENDA_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>48A477AE-3145-A9B6-8329-85F10E2A9EBD</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<referredTableLongName>AGENDA_OP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A56AFF09-9C6B-29D5-9EB7-39561D87A595</referredTableID>
+<keyObject>32CC64D0-327E-FC27-2850-BDF3D5B3F5A1</keyObject>
+<referredKeyID>32CC64D0-327E-FC27-2850-BDF3D5B3F5A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_agenda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

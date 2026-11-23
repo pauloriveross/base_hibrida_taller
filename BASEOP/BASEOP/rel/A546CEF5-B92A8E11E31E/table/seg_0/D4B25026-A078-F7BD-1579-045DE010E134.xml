@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4B25026-A078-F7BD-1579-045DE010E134" name="RUTINA_OP">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>555B8737-4FDA-47D1-358B-A44C1D03F070</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rutina" id="3102D322-E365-2BC3-EFE0-5E6D6E3B50CF">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>41B87F81-13DC-9DFE-2463-09AA44EE5E1F</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_rutina" id="B54EF03A-CFB8-2A1D-50B0-9B3146D71317">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>A0EC5E49-E52C-2716-B4BB-808999153FF0</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREP_FISICO_OP_id_prep" id="4D4C6748-A6A4-6E97-D14B-CA11D1A0FFC9">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>69A73CFF-846F-9FAA-10CE-0A4745729BDC</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AB61CDA-4069-2F66-3866-25DCBB3CE143" referredColumn="20CCF488-E484-A983-A509-8FD3DCB9A9CE"/>
+</associations>
+</Column>
+<Column name="CLIENTE_OP_id_cliente" id="9B541884-8D47-B4AF-40E0-A09AEE21FD0F">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>16532E25-A1E6-04EC-C7DC-D3E1964B5F9C</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21530FD9-4BB2-24C6-60B4-0E1A740E1421" referredColumn="EA16EBE3-EB6D-AFEF-D91B-A19359853DDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A2276ED-FCB9-9F07-2507-A9C4F9D39110" name="RUTINA_OP_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>C2BBAB92-D22B-0C94-635F-D702AFE3025C</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3102D322-E365-2BC3-EFE0-5E6D6E3B50CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62E20E7D-FE3A-7AF6-842A-89E8B4DB499E" name="RUTINA_OP_PREP_FISICO_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>CF0327E9-D0A1-9471-A8ED-38AA118A6BE4</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4C6748-A6A4-6E97-D14B-CA11D1A0FFC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D7ECA87-9BF8-D9FE-5253-D8A02D74EE34" name="RUTINA_OP_CLIENTE_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>A0D92A45-3ABA-4A63-7CEB-F77654C06477</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B541884-8D47-B4AF-40E0-A09AEE21FD0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

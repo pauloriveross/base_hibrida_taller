@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3318725F-8C47-0692-CD4B-13D7D4C6ACEA" name="DEFINIR">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PREP_FISICO_OP_id_preparador" id="13DA9351-5389-DB7F-6B71-47879CC87649">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12896E0F-00F5-E770-002F-062616C7244F" referredColumn="20CCF488-E484-A983-A509-8FD3DCB9A9CE"/>
+</associations>
+</Column>
+<Column name="BLOQUE_HORARIO_OP_id_bloque" id="7C7B6F7B-CF0E-51DD-CAE0-8E4E2824DF85">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A96553F6-2DDF-883B-254D-DB91F9824CDE" referredColumn="2F2FC886-7DE6-74FD-A898-2C3FE4E15413"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2CAB7FF-A842-83F5-4E81-81385E24D8D1" name="DEFINIR_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13DA9351-5389-DB7F-6B71-47879CC87649"/>
+<colUsage columnID="7C7B6F7B-CF0E-51DD-CAE0-8E4E2824DF85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EF25373-B92D-7B53-7160-C64E696617EA" name="DEFINIR_PREP_FISICO_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>FB491959-FE31-D96A-5814-74C0FDF55320</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13DA9351-5389-DB7F-6B71-47879CC87649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01243BC5-A04E-FFFE-FCA9-1E7DACB85106" name="DEFINIR_BLOQUE_HORARIO_OP_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-11-23 12:30:12 UTC</createdTime>
+<generatorID>FB491959-FE31-D96A-5814-74C0FDF55320</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C7B6F7B-CF0E-51DD-CAE0-8E4E2824DF85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

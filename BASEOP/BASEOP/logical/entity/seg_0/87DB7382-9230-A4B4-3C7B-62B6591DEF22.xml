@@ -92,8 +92,8 @@
 <referedAttribute>D650CF76-E8D0-892E-F95A-D7B3AACBE4EA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -102,8 +102,9 @@
 <createdBy>paulo</createdBy>
 <createdTime>2026-11-21 14:47:48 UTC</createdTime>
 <ownerDesignName>BASEOP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

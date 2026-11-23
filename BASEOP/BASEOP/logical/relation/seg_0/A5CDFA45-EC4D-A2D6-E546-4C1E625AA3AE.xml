@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGRUPAR" directorySegmentName="seg_0" id="A5CDFA45-EC4D-A2D6-E546-4C1E625AA3AE">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 21:36:05 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>22459998-DE5A-92EC-66C3-25D949F915D7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>agrupa</nameOnSource>
+<nameOnTarget>es agrupado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25297549-C871-8DC5-FB76-9629A82932C2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EC63FCE1-9396-67EC-C047-B8E885A09EAD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

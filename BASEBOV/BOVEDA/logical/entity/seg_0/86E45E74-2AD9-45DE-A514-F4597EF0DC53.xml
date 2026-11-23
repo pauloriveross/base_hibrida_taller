@@ -1,0 +1,211 @@
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86E45E74-2AD9-45DE-A514-F4597EF0DC53" name="PREPARADOR_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Identidad del preparador fisico. NARANJO cifrado + huella. La especialidad y comuna son AMARILLO y permanecen en la BD operativa. No se replica la relacion con AGENDA: esa tabla referencia al preparador por su seudonimo en la operativa. Color: NARANJO]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>86E45E74-2AD9-45DE-A514-F4597EF0DC53</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_preparador" id="D2D3BA97-C2A8-4533-8534-DC39E55ADCB8">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Seudonimo RAW(16). Mismo valor en la BD operativa.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>D2D3BA97-C2A8-4533-8534-DC39E55ADCB8</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="rut_prep_cifrado" id="8FFCFA72-FE31-4F3B-8265-AEBFBA40D379">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>8FFCFA72-FE31-4F3B-8265-AEBFBA40D379</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="rut_prep_huella" id="9D05A78C-16A3-4808-BDEA-CB9545CA0F09">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Busqueda por RUT del preparador sin descifrar.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>9D05A78C-16A3-4808-BDEA-CB9545CA0F09</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="pnombre_preparador_cif" id="8C32C318-B0A9-4314-8500-A0709DA442B4">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>8C32C318-B0A9-4314-8500-A0709DA442B4</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="snombre_preparador_cif" id="C65A42D7-59FD-4AF7-AE5F-EFA28A377001">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>C65A42D7-59FD-4AF7-AE5F-EFA28A377001</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="papellido_preparador_cif" id="E1B06D31-6F21-4C5C-80B7-FFA1DAB20B00">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>E1B06D31-6F21-4C5C-80B7-FFA1DAB20B00</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="sapellido_preparador_cif" id="180066E8-FEB2-4D0E-8222-DD070687D404">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>180066E8-FEB2-4D0E-8222-DD070687D404</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="fecha_nac_preparador_cif" id="A3E18FB6-F7AC-4BB2-9BBC-F04420EC621E">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Cuasi-identificador; en operativa solo el anio.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>A3E18FB6-F7AC-4BB2-9BBC-F04420EC621E</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="correo_preparador_cif" id="24FD66C9-6C89-44F6-9312-3DF1DDA013B5">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>24FD66C9-6C89-44F6-9312-3DF1DDA013B5</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="correo_prep_huella" id="93705D24-DCBB-4F8A-86B8-D5FB90ECB440">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Busqueda/login por correo.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>93705D24-DCBB-4F8A-86B8-D5FB90ECB440</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="telefono_preparador_cif" id="279162CA-40F8-4050-856E-4B3AD50C0050">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>279162CA-40F8-4050-856E-4B3AD50C0050</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+<Attribute name="telefono_prep_huella" id="A4EBA35D-9307-48F5-9255-F32A9E2337D6">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Busqueda por telefono.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>A4EBA35D-9307-48F5-9255-F32A9E2337D6</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE08C784-5329-4692-8245-405FE1A7B129" name="PREPARADOR_BOV PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>EE08C784-5329-4692-8245-405FE1A7B129</generatorID>
+<engineerTo><item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/></engineerTo>
+<pk>true</pk>
+<newElementsIDs>D2D3BA97-C2A8-4533-8534-DC39E55ADCB8</newElementsIDs>
+<usedAttributes>
+<attributeRef>D2D3BA97-C2A8-4533-8534-DC39E55ADCB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

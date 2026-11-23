@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENDAR" directorySegmentName="seg_0" id="F81DA601-A21E-2D6F-B9CF-2B6FA7552AB2">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:30:05 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>881C72FF-2D41-865D-676B-085E2C07D89B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>agenda</nameOnSource>
+<nameOnTarget>es agendada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B2CEAE1-7582-1C82-7371-66BA692E5492</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0011BED1-4939-A396-0EFE-FF91A5BCE104</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

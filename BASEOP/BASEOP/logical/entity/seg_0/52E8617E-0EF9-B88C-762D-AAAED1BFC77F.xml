@@ -41,6 +41,21 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_region" id="6586228F-A7F1-FFAC-8173-8640D61122FF">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 20:06:04 UTC</createdTime>
+<generatorID>DFD2ECD4-1247-96CC-BB52-10C8054CC4EF</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<referedAttribute>95E02DA1-BCA3-5793-E32A-6F9E3566D3D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C414DB7E-7494-A140-DDB0-34CE8DA1C7DB" name="CIUDAD_OP PK">

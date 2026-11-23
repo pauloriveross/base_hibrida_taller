@@ -1,0 +1,66 @@
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05AE7262-49EB-4FF3-82A6-07320E4F0061" name="PROGRESO_CLI_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>A8A7CFC4-7322-4658-A1A7-ED8E3EA9684F</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_progreso" id="C62C1430-829F-467E-94C7-53A12C592DB7">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Antes NUMBER(7); ahora seudonimo RAW(16).]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>93C58B99-DC3F-448D-8EA5-3B99243ADA19</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ficha" id="0358EFD5-1219-4913-AA59-3EF2CC6BFEAD">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[FK a FICHA_CLIENTE_BOV.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>E5C32B57-42F2-4857-9913-CAE150DEE392</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_progreso_cif" id="DB0A3414-4B36-480C-9B21-744610A69C7B">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Texto libre con posible informacion de salud.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>5DA963EE-C7C2-44CF-BB9B-441E0ADF3DDB</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B6D583F-2545-4BC7-A7FC-C092BCA6803A" name="PROGRESO_CLI_BOV_PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>A8A7CFC4-7322-4658-A1A7-ED8E3EA9684F</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62C1430-829F-467E-94C7-53A12C592DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

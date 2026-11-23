@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEFINIR" directorySegmentName="seg_0" id="FB491959-FE31-D96A-5814-74C0FDF55320">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:35:28 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>define</nameOnSource>
+<nameOnTarget>es definido</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EC63FCE1-9396-67EC-C047-B8E885A09EAD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16C40813-A90E-593D-04CF-8276001B99FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,67 @@
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2C934E4-5809-4809-B431-EE962EC0021C" name="FICHA_CLIENTE_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>A00B3531-D8C9-4E3C-988B-1AC65371112C</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ficha" id="50C118F0-48ED-4B2C-8D0E-B78F8E13C69E">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Antes NUMBER(7); ahora seudonimo RAW(16) comun con la operativa.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>83018502-F350-40D1-92C4-778FE39A73FA</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="FF8A8D03-3AF2-4B55-BA37-D54B8DDE8788">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[FK al seudonimo del titular (antes relacion TENER por RUT). FK interna de la boveda.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>CB34FBBA-8BC1-4FA5-8604-3DB395EBDB43</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones_cif" id="7588DF32-A6B8-4234-9B65-D57D146FD514">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Salud: 'control de presion arterial', 'seguimiento nutricional', etc.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>600ED5B4-7211-4A37-84B5-1D4F01C63779</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAFBFE9D-9F9A-4312-BE30-8BFABF5110EA" name="FICHA_CLIENTE_BOV_PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>A00B3531-D8C9-4E3C-988B-1AC65371112C</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50C118F0-48ED-4B2C-8D0E-B78F8E13C69E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

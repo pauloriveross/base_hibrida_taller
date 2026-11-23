@@ -24,9 +24,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>36</dataTypeSize>
-<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_sesion" id="C7932BEC-1BFE-AB11-5F9D-163247C3B78B">
 <createdBy>paulo</createdBy>
@@ -49,9 +49,39 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rutina" id="9FE9C3CA-3B4D-0362-D95B-F8C274C134C8">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:24:07 UTC</createdTime>
+<generatorID>646B79A5-7133-721B-5D63-5BBF84CF8EA4</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<referedAttribute>41B87F81-13DC-9DFE-2463-09AA44EE5E1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agenda" id="05A1C264-2231-62FD-DB46-A1E9BBD4CF32">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:32:43 UTC</createdTime>
+<generatorID>48A477AE-3145-A9B6-8329-85F10E2A9EBD</generatorID>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<referedAttribute>B0DEE0C7-3DE5-4849-AFC3-BEB68B834F7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

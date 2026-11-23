@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BOVEDA" id="9A35F6B5-2EC5-B6D9-C52B-7963EFADDC6A" version="3.5">
 <createdBy>paulo</createdBy>
-<createdTime>2026-11-22 13:40:39 UTC</createdTime>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <ownerDesignName>BOVEDA</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>9A35F6B5-2EC5-B6D9-C52B-7963EFADDC6A</designId>
+<description><![CDATA[Boveda sensible de FitManagerPro - Ley 21.719 (Pasos 2 y 3). Contiene unicamente datos ROJOS (salud, Art. 2 letra g) y NARANJOS (identificadores directos) cifrados con AES-256, mas huellas HMAC-SHA256 para busquedas. Los datos AMARILLOS y VERDES quedan en la BD operativa. Ambas BD se unen solo por el seudonimo RAW(16) de la clave primaria; no existe FK fisica entre BDs. Decisiones: nacionalidad_cliente = AMARILLO (en los datos es nacionalidad, no etnia); medidas antropometricas y descripcion_progreso = ROJOS por inferencia de salud; RESUMEN_CONTRATO_CLI no se replica: es una copia denormalizada que debe eliminarse y servirse mediante la vista autorizada. Acceso: solo vista descifrada para el rol autorizado, sin grants directos. Este diseno se entrega SIN relaciones logicas y SIN FK: las relaciones se dibujaran manualmente.]]></description>
 </OSDM_Design>

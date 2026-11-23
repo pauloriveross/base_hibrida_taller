@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COORDINAR" directorySegmentName="seg_0" id="F913C9E6-250E-EB8D-221F-7E89708769D9">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:20:02 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>01EE10F5-D6EE-822E-BD5F-AE16CBB1CC71</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>coordina</nameOnSource>
+<nameOnTarget>es coordinada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC63FCE1-9396-67EC-C047-B8E885A09EAD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0011BED1-4939-A396-0EFE-FF91A5BCE104</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

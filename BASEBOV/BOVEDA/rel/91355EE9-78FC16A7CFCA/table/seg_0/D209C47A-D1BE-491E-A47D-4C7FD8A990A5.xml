@@ -1,0 +1,177 @@
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D209C47A-D1BE-491E-A47D-4C7FD8A990A5" name="METRICA_CLI_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>8E30ECDE-6BF0-455B-8240-B8C19A9CC579</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metrica" id="FC57C046-1437-4126-A1CE-34C6F3564674">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Antes NUMBER(3); ahora seudonimo RAW(16).]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>EC33F903-0BAB-4A21-AE47-D9E7C8F7C44A</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ficha" id="BC6A3387-31BD-4A08-89BA-C5EAE4366B84">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[FK a FICHA_CLIENTE_BOV (antes entidad REGISTRAR).]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>54A6CF82-8B66-4652-903E-327EBC6BD628</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_cliente_cif" id="2DCD135E-12A0-4F2E-B184-DA09C75C8178">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>C8457A80-365F-4CA3-80F6-C8442C402CE9</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estatura_cliente_cif" id="DB1CFF06-5990-49B4-BFBD-C64BC79677A9">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>6EF7D864-5ED3-4A9C-92A7-A750F93216D1</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medida_pecho_cliente_cif" id="7BC855AA-70F0-4F4C-80D2-FC77508496BC">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>36584176-1C6F-4207-939E-02D0BE43133E</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medida_cintura_cliente_cif" id="F8C7D770-431E-4B6C-9AE7-F27035F2A35F">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>2F78DE54-FC1C-4D3E-A319-BCEDF1D18FFB</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medida_cadera_cliente_cif" id="57EE00CA-BA5A-46E5-88BB-0CEB336D49FB">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>BBCC93C3-3A4D-4A69-91BD-C068A570F4F3</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medida_hombros_cliente_cif" id="2B966161-EDCA-4689-A37D-7D692EA7EC74">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>D709B3CC-46B4-46E1-A1C7-FCE1557D0568</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medida_brazos_cliente_cif" id="20A5D9D5-E3D8-4478-BAB1-DF079FAC2071">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>18A66E82-72FB-45F1-901E-169FB89CD95B</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medida_muslos_cliente_cif" id="685EB7DF-F12D-4369-AAB5-683CABBA1BC0">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>AA2AFA94-ADB2-45C2-858D-69886B2F3D41</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medida_pantorillas_cif" id="DB07CEFE-8ED3-4218-8799-8F9B70316BE0">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>B3E33CB6-408D-41B1-BA64-3EFB75DF701D</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4B93B03-5C39-491F-A2D8-A6D80B490550" name="METRICA_CLI_BOV_PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>8E30ECDE-6BF0-455B-8240-B8C19A9CC579</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC57C046-1437-4126-A1CE-34C6F3564674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

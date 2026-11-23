@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTRAR" directorySegmentName="seg_0" id="1A0F7541-82F1-AA68-D188-651ABE8B0747">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:52:09 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<sourcePk>33EF2DDB-C087-4CAE-B004-996C9C559644</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>registra</nameOnSource>
+<nameOnTarget>es registrada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A00B3531-D8C9-4E3C-988B-1AC65371112C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>981DA70B-2BEF-4815-998D-1BDC0459F712</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

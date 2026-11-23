@@ -1,0 +1,215 @@
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E9FA3FD-F3AD-4313-9C3B-628D59097CB0" name="CLIENTE_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>67FEBA9D-E90E-43E9-B213-D4EC2C818018</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="E0A4D466-D999-4A95-99C7-B202CD9B8353">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Seudonimo RAW(16) generado con DBMS_CRYPTO.RANDOMBYTES(16) o SYS_GUID(). Mismo valor en la BD operativa.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_cifrado" id="E72956B7-4170-40EE-BA00-B11D13E8D49A">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[RUT cifrado (antes CLIENTE.rut_cliente).]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>CEDCD4C9-4C6E-4922-902C-7EEE10969A84</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_huella" id="39697CE9-B477-4060-9109-233785445B6B">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Huella del RUT normalizado; permite buscar sin descifrar.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>6846BCD1-8D5D-4136-BEA6-43A321800C35</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pnombre_cliente_cif" id="5161E052-E048-4DDA-9336-CAF4EF4BC06C">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>B9CEB335-0333-4159-B6E2-5DCC0A09F28A</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="snombre_cliente_cif" id="00785B75-2836-4EA4-A71E-169692986C4E">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>ED42EE6A-BF63-4362-9227-BE50ACFA1E0E</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="papellido_cliente_cif" id="9AC436A7-86BC-41E1-904D-E9BFFFF97847">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>997E6F43-01CC-47E3-A41B-B5CA9BC4AE21</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sapellido_cliente_cif" id="11702D2E-63C1-4870-B337-604C94ECB4A3">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>2A8FB87B-7A45-4118-86E2-9834ACEB3161</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac_cliente_cif" id="0A6CE942-4BC6-4781-866B-0E17DE700E8D">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Cuasi-identificador. En la operativa solo se conserva anio_nacimiento.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>8FC9513F-0A68-4B30-A12F-89070C55949B</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_cliente_cif" id="8AC9337F-6879-46B3-B962-5641E5397230">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>6E8CEA10-E7FC-42D7-8B0D-5A4279F8CB93</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_huella" id="3CE693F1-A754-4BEF-8345-2F35A9D5DF3F">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Busqueda por telefono sin descifrar.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>82BD4657-5960-464F-99A9-AE5A3C3535C4</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_cliente_cif" id="BE1997A9-2470-4CDA-9821-F4B74A9C86E3">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>09FAD8A1-BBCC-4BAC-AAAA-054D1A578FF1</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_huella" id="E830F8B5-35E5-4AC3-9416-44F7C0054812">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<description><![CDATA[Busqueda/login por correo sin descifrar.]]></description>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>183DAEE5-C901-4FDB-8435-FE4956FBF357</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DA13010-138C-49B0-B7CA-0942E98DA0CA" name="CLIENTE_BOV_PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<generatorID>67FEBA9D-E90E-43E9-B213-D4EC2C818018</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0A4D466-D999-4A95-99C7-B202CD9B8353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E40B6B48-3E72-4502-92D4-F1DCF6B19D75" name="CLIENTE_BOV_RUT_HUELLA_UK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<unique>true</unique>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39697CE9-B477-4060-9109-233785445B6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A8A2805-B3B1-4BF1-ACDA-03CF44E3CECA" name="CLIENTE_BOV_CORREO_HUELLA_UK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<unique>true</unique>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E830F8B5-35E5-4AC3-9416-44F7C0054812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

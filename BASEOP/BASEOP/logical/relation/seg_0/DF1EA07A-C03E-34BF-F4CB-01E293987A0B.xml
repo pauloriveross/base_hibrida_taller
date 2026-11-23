@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VINCULAR" directorySegmentName="seg_0" id="DF1EA07A-C03E-34BF-F4CB-01E293987A0B">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:07:27 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>BE6381F5-5ADA-BD1A-2E8A-EFCF43EDCAF6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>vincula</nameOnSource>
+<nameOnTarget>es vinculado</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3950299-A98C-9778-811D-8C0A185DBF6D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C6EAFAF-CE9D-B78A-9D14-4769A757178E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8A7CFC4-7322-4658-A1A7-ED8E3EA9684F" name="PROGRESO_CLI_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>A8A7CFC4-7322-4658-A1A7-ED8E3EA9684F</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_progreso" id="93C58B99-DC3F-448D-8EA5-3B99243ADA19">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>93C58B99-DC3F-448D-8EA5-3B99243ADA19</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_progreso_cif" id="5DA963EE-C7C2-44CF-BB9B-441E0ADF3DDB">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>5DA963EE-C7C2-44CF-BB9B-441E0ADF3DDB</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ficha" id="B340C18D-A475-104E-7873-F55484E64CA8">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:53:25 UTC</createdTime>
+<generatorID>F8DAA603-6CE9-505D-70A3-9EE4D5728E6B</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>83018502-F350-40D1-92C4-778FE39A73FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="440F3243-80E6-411A-B4B6-4F6FD0B4C5BD" name="PROGRESO_CLI_BOV PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>440F3243-80E6-411A-B4B6-4F6FD0B4C5BD</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>93C58B99-DC3F-448D-8EA5-3B99243ADA19</newElementsIDs>
+<usedAttributes>
+<attributeRef>93C58B99-DC3F-448D-8EA5-3B99243ADA19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

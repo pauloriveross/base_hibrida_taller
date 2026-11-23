@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECIBIR" directorySegmentName="seg_0" id="A0D92A45-3ABA-4A63-7CEB-F77654C06477">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:28:41 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>881C72FF-2D41-865D-676B-085E2C07D89B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>recibe</nameOnSource>
+<nameOnTarget>es recibida</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B2CEAE1-7582-1C82-7371-66BA692E5492</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>555B8737-4FDA-47D1-358B-A44C1D03F070</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

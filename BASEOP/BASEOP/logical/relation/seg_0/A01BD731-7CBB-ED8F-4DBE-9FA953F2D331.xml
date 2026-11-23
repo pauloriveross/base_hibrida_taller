@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROCESAR" directorySegmentName="seg_0" id="A01BD731-7CBB-ED8F-4DBE-9FA953F2D331">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:08:59 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>7152672A-73A5-B095-12B4-6DDB101BB097</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>procesa</nameOnSource>
+<nameOnTarget>es procesado</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CBB736E-6535-5505-8423-B45C690EEE30</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87DB7382-9230-A4B4-3C7B-62B6591DEF22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_met_pagp" id="D650CF76-E8D0-892E-F95A-D7B3AACBE4EA">
+<Attribute name="id_met_pago" id="D650CF76-E8D0-892E-F95A-D7B3AACBE4EA">
 <createdBy>paulo</createdBy>
 <createdTime>2026-11-21 14:42:23 UTC</createdTime>
 <ownerDesignName>BASEOP</ownerDesignName>
@@ -24,9 +24,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>36</dataTypeSize>
-<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_met_pago" id="C9E54D77-0434-5913-B671-4BDDDDA10F01">
 <createdBy>paulo</createdBy>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A00B3531-D8C9-4E3C-988B-1AC65371112C" name="FICHA_CLIENTE_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>A00B3531-D8C9-4E3C-988B-1AC65371112C</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ficha" id="83018502-F350-40D1-92C4-778FE39A73FA">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>83018502-F350-40D1-92C4-778FE39A73FA</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones_cif" id="600ED5B4-7211-4A37-84B5-1D4F01C63779">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>600ED5B4-7211-4A37-84B5-1D4F01C63779</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="14791ACD-563C-99D6-121B-80FA13DA099E">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:51:44 UTC</createdTime>
+<generatorID>5AC31497-B750-BC42-F999-F6564372FB47</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33EF2DDB-C087-4CAE-B004-996C9C559644" name="FICHA_CLIENTE_BOV PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>33EF2DDB-C087-4CAE-B004-996C9C559644</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>83018502-F350-40D1-92C4-778FE39A73FA</newElementsIDs>
+<usedAttributes>
+<attributeRef>83018502-F350-40D1-92C4-778FE39A73FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

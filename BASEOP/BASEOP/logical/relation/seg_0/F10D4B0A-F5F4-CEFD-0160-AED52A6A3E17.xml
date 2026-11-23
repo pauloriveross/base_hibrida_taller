@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIVIDIR" directorySegmentName="seg_0" id="F10D4B0A-F5F4-CEFD-0160-AED52A6A3E17">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 20:04:53 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>BCA67074-1E61-0DD2-5057-FFBD66F8FACC</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>divide</nameOnSource>
+<nameOnTarget>es dividido</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1E221FBC-32EC-6F54-902A-B1697FDC5EDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C8EAF5DF-7E9A-DC63-7CB5-A0EDC37D832B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

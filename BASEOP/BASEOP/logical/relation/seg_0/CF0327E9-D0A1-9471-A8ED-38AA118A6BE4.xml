@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DISEÑAR" directorySegmentName="seg_0" id="CF0327E9-D0A1-9471-A8ED-38AA118A6BE4">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:22:17 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>01EE10F5-D6EE-822E-BD5F-AE16CBB1CC71</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>diseña</nameOnSource>
+<nameOnTarget>es diseñada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC63FCE1-9396-67EC-C047-B8E885A09EAD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>555B8737-4FDA-47D1-358B-A44C1D03F070</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

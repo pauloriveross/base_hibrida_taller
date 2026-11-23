@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TENER" directorySegmentName="seg_0" id="5AC31497-B750-BC42-F999-F6564372FB47">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:51:44 UTC</createdTime>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<sourcePk>8986A39E-0B73-426A-8EFC-88FE115518E0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>es tenida</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>67FEBA9D-E90E-43E9-B213-D4EC2C818018</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A00B3531-D8C9-4E3C-988B-1AC65371112C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -28,7 +28,7 @@
 <dataTypeSize>36</dataTypeSize>
 <ownDataTypeParameters>36,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_ej" id="22634912-3DDF-3A13-C093-0AB297C06040">
+<Attribute name="nombre_ejercicio" id="22634912-3DDF-3A13-C093-0AB297C06040">
 <createdBy>paulo</createdBy>
 <createdTime>2026-11-21 14:33:00 UTC</createdTime>
 <ownerDesignName>BASEOP</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="desc_ej" id="60554AB4-726D-7427-1CE8-78D03F1AF9C6">
+<Attribute name="desc_ejercicio" id="60554AB4-726D-7427-1CE8-78D03F1AF9C6">
 <createdBy>paulo</createdBy>
 <createdTime>2026-11-21 14:33:16 UTC</createdTime>
 <ownerDesignName>BASEOP</ownerDesignName>
@@ -54,7 +54,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="reps_ej" id="53EBC057-C45A-82A1-A01E-3BD448F45C9D">
+<Attribute name="reps_ejercicio" id="53EBC057-C45A-82A1-A01E-3BD448F45C9D">
 <createdBy>paulo</createdBy>
 <createdTime>2026-11-21 14:33:30 UTC</createdTime>
 <ownerDesignName>BASEOP</ownerDesignName>
@@ -67,7 +67,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="peso_ej" id="8E0052CD-BF3F-220C-F82E-131AEA632A46">
+<Attribute name="peso_ejercicio" id="8E0052CD-BF3F-220C-F82E-131AEA632A46">
 <createdBy>paulo</createdBy>
 <createdTime>2026-11-21 14:33:51 UTC</createdTime>
 <ownerDesignName>BASEOP</ownerDesignName>

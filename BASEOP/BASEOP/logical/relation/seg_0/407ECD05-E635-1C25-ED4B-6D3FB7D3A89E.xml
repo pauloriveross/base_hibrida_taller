@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOCUMENTAR" directorySegmentName="seg_0" id="407ECD05-E635-1C25-ED4B-6D3FB7D3A89E">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:10:08 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>E9AA377C-2B38-C85D-FB3C-F0F962C0C0A4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>documenta</nameOnSource>
+<nameOnTarget>es documentada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>87DB7382-9230-A4B4-3C7B-62B6591DEF22</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9EF1E279-70B8-BB97-84EC-14E86A67C186</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

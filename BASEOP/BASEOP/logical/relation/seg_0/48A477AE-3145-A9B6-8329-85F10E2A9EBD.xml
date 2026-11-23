@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROGRAMAR" directorySegmentName="seg_0" id="48A477AE-3145-A9B6-8329-85F10E2A9EBD">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 22:32:43 UTC</createdTime>
+<ownerDesignName>BASEOP</ownerDesignName>
+<engineerTo>
+<item key="A546CEF5-93BB-4FF7-7A3C-B92A8E11E31E" value="true"/>
+</engineerTo>
+<sourcePk>A9D638A1-E195-8791-CC7E-0A26287E6415</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>programa</nameOnSource>
+<nameOnTarget>es programada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0011BED1-4939-A396-0EFE-FF91A5BCE104</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>01B77314-F72C-7C65-0245-170AAEE315BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

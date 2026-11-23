@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="981DA70B-2BEF-4815-998D-1BDC0459F712" name="PATOLOGIA_BOV">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>981DA70B-2BEF-4815-998D-1BDC0459F712</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_patologia" id="2ABA822C-3E40-43D6-9CB1-D0B1B89B289A">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>2ABA822C-3E40-43D6-9CB1-D0B1B89B289A</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_patologia_cif" id="5CF74E4E-F68C-4BE7-8D0B-79DD1B9A9C16">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>5CF74E4E-F68C-4BE7-8D0B-79DD1B9A9C16</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_patologia_cif" id="2D1C3DAA-FA8C-4BE8-A0E5-6C141E400809">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>2D1C3DAA-FA8C-4BE8-A0E5-6C141E400809</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grado_patologia_cif" id="51DE735F-3FB7-4951-AB82-D72AC2AEF613">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>51DE735F-3FB7-4951-AB82-D72AC2AEF613</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion_patologia_cif" id="FA1D9B32-0BC7-4341-B097-0BC833EF8F9C">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>FA1D9B32-0BC7-4341-B097-0BC833EF8F9C</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria_patologia_cif" id="53A9184E-B6F0-4A6D-AF84-2226FA513D9D">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>53A9184E-B6F0-4A6D-AF84-2226FA513D9D</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ficha" id="4AFE5449-571A-DF55-20C9-A62E887FC078">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:52:09 UTC</createdTime>
+<generatorID>1A0F7541-82F1-AA68-D188-651ABE8B0747</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>83018502-F350-40D1-92C4-778FE39A73FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4DE3C9F-BB1E-434F-8703-A3395642E8CA" name="PATOLOGIA_BOV PK">
+<createdBy>moka</createdBy>
+<createdTime>2026-11-22 23:12:55 UTC</createdTime>
+<generatorID>F4DE3C9F-BB1E-434F-8703-A3395642E8CA</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2ABA822C-3E40-43D6-9CB1-D0B1B89B289A</newElementsIDs>
+<usedAttributes>
+<attributeRef>2ABA822C-3E40-43D6-9CB1-D0B1B89B289A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

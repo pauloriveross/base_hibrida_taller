@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E30ECDE-6BF0-455B-8240-B8C19A9CC579" name="METRICA_CLI_BOV">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E30ECDE-6BF0-455B-8240-B8C19A9CC579" name="METRICA CLI BOV">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>8E30ECDE-6BF0-455B-8240-B8C19A9CC579</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_metrica" id="EC33F903-0BAB-4A21-AE47-D9E7C8F7C44A">
+<Attribute name="id metrica" id="EC33F903-0BAB-4A21-AE47-D9E7C8F7C44A">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>EC33F903-0BAB-4A21-AE47-D9E7C8F7C44A</generatorID>
@@ -30,7 +30,7 @@
 <dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="peso_cliente_cif" id="C8457A80-365F-4CA3-80F6-C8442C402CE9">
+<Attribute name="peso cliente cif" id="C8457A80-365F-4CA3-80F6-C8442C402CE9">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>C8457A80-365F-4CA3-80F6-C8442C402CE9</generatorID>
@@ -44,7 +44,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estatura_cliente_cif" id="6EF7D864-5ED3-4A9C-92A7-A750F93216D1">
+<Attribute name="estatura cliente cif" id="6EF7D864-5ED3-4A9C-92A7-A750F93216D1">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>6EF7D864-5ED3-4A9C-92A7-A750F93216D1</generatorID>
@@ -58,7 +58,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medida_pecho_cliente_cif" id="36584176-1C6F-4207-939E-02D0BE43133E">
+<Attribute name="medida pecho cliente cif" id="36584176-1C6F-4207-939E-02D0BE43133E">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>36584176-1C6F-4207-939E-02D0BE43133E</generatorID>
@@ -72,7 +72,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medida_cintura_cliente_cif" id="2F78DE54-FC1C-4D3E-A319-BCEDF1D18FFB">
+<Attribute name="medida cintura cliente cif" id="2F78DE54-FC1C-4D3E-A319-BCEDF1D18FFB">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>2F78DE54-FC1C-4D3E-A319-BCEDF1D18FFB</generatorID>
@@ -86,7 +86,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medida_cadera_cliente_cif" id="BBCC93C3-3A4D-4A69-91BD-C068A570F4F3">
+<Attribute name="medida cadera cliente cif" id="BBCC93C3-3A4D-4A69-91BD-C068A570F4F3">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>BBCC93C3-3A4D-4A69-91BD-C068A570F4F3</generatorID>
@@ -100,7 +100,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medida_hombros_cliente_cif" id="D709B3CC-46B4-46E1-A1C7-FCE1557D0568">
+<Attribute name="medida hombros cliente cif" id="D709B3CC-46B4-46E1-A1C7-FCE1557D0568">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>D709B3CC-46B4-46E1-A1C7-FCE1557D0568</generatorID>
@@ -114,7 +114,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medida_brazos_cliente_cif" id="18A66E82-72FB-45F1-901E-169FB89CD95B">
+<Attribute name="medida brazos cliente cif" id="18A66E82-72FB-45F1-901E-169FB89CD95B">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>18A66E82-72FB-45F1-901E-169FB89CD95B</generatorID>
@@ -128,7 +128,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medida_muslos_cliente_cif" id="AA2AFA94-ADB2-45C2-858D-69886B2F3D41">
+<Attribute name="medida muslos cliente cif" id="AA2AFA94-ADB2-45C2-858D-69886B2F3D41">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>AA2AFA94-ADB2-45C2-858D-69886B2F3D41</generatorID>
@@ -142,7 +142,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medida_pantorillas_cif" id="B3E33CB6-408D-41B1-BA64-3EFB75DF701D">
+<Attribute name="medida pantorillas cif" id="B3E33CB6-408D-41B1-BA64-3EFB75DF701D">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>B3E33CB6-408D-41B1-BA64-3EFB75DF701D</generatorID>
@@ -156,7 +156,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ficha" id="46FFFAC1-AA24-2115-449D-B5BDF830128C">
+<Attribute name="id ficha" id="46FFFAC1-AA24-2115-449D-B5BDF830128C">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:52:47 UTC</createdTime>
 <generatorID>B01583A6-4598-8504-7FA3-8F4746F83A1C</generatorID>
@@ -170,7 +170,21 @@
 <use>1</use>
 <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
 <dataTypeSize>16</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id ficha" id="B29D8D02-083A-C85B-3C5C-A11C56B28697">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-23 14:15:45 UTC</createdTime>
+<generatorID>BC6A3387-31BD-4A08-89BA-C5EAE4366B84</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -182,8 +196,20 @@
 <engineerTo>
 <item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
 </engineerTo>
-<pk>true</pk>
 <newElementsIDs>EC33F903-0BAB-4A21-AE47-D9E7C8F7C44A</newElementsIDs>
+<usedAttributes>
+<attributeRef>EC33F903-0BAB-4A21-AE47-D9E7C8F7C44A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9ABA1CDB-FE45-1627-1F80-A8D1542E243E" name="METRICA CLI BOV PK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-23 14:15:45 UTC</createdTime>
+<generatorID>B4B93B03-5C39-491F-A2D8-A6D80B490550</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
 <usedAttributes>
 <attributeRef>EC33F903-0BAB-4A21-AE47-D9E7C8F7C44A</attributeRef>
 </usedAttributes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67FEBA9D-E90E-43E9-B213-D4EC2C818018" name="CLIENTE_BOV">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67FEBA9D-E90E-43E9-B213-D4EC2C818018" name="CLIENTE BOV">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>67FEBA9D-E90E-43E9-B213-D4EC2C818018</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_cliente" id="1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC">
+<Attribute name="id cliente" id="1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC</generatorID>
@@ -30,7 +30,7 @@
 <dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut_cliente" id="CEDCD4C9-4C6E-4922-902C-7EEE10969A84">
+<Attribute name="rut cifrado" id="CEDCD4C9-4C6E-4922-902C-7EEE10969A84">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>CEDCD4C9-4C6E-4922-902C-7EEE10969A84</generatorID>
@@ -44,7 +44,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pnombre_cliente_cif" id="B9CEB335-0333-4159-B6E2-5DCC0A09F28A">
+<Attribute name="pnombre cliente cif" id="B9CEB335-0333-4159-B6E2-5DCC0A09F28A">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>B9CEB335-0333-4159-B6E2-5DCC0A09F28A</generatorID>
@@ -58,7 +58,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="snombre_cliente_cif" id="ED42EE6A-BF63-4362-9227-BE50ACFA1E0E">
+<Attribute name="snombre cliente cif" id="ED42EE6A-BF63-4362-9227-BE50ACFA1E0E">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>ED42EE6A-BF63-4362-9227-BE50ACFA1E0E</generatorID>
@@ -73,7 +73,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="papellido_cliente_cif" id="997E6F43-01CC-47E3-A41B-B5CA9BC4AE21">
+<Attribute name="papellido cliente cif" id="997E6F43-01CC-47E3-A41B-B5CA9BC4AE21">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>997E6F43-01CC-47E3-A41B-B5CA9BC4AE21</generatorID>
@@ -87,7 +87,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sapellido_cliente_cif" id="2A8FB87B-7A45-4118-86E2-9834ACEB3161">
+<Attribute name="sapellido cliente cif" id="2A8FB87B-7A45-4118-86E2-9834ACEB3161">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>2A8FB87B-7A45-4118-86E2-9834ACEB3161</generatorID>
@@ -102,7 +102,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_nac_cliente_cif" id="8FC9513F-0A68-4B30-A12F-89070C55949B">
+<Attribute name="fecha nac cliente cif" id="8FC9513F-0A68-4B30-A12F-89070C55949B">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>8FC9513F-0A68-4B30-A12F-89070C55949B</generatorID>
@@ -116,7 +116,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefono_cliente_cif" id="6E8CEA10-E7FC-42D7-8B0D-5A4279F8CB93">
+<Attribute name="telefono cliente cif" id="6E8CEA10-E7FC-42D7-8B0D-5A4279F8CB93">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>6E8CEA10-E7FC-42D7-8B0D-5A4279F8CB93</generatorID>
@@ -130,7 +130,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefono_huella" id="82BD4657-5960-464F-99A9-AE5A3C3535C4">
+<Attribute name="telefono huella" id="82BD4657-5960-464F-99A9-AE5A3C3535C4">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>82BD4657-5960-464F-99A9-AE5A3C3535C4</generatorID>
@@ -145,7 +145,7 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="correo_cliente_cif" id="09FAD8A1-BBCC-4BAC-AAAA-054D1A578FF1">
+<Attribute name="correo cliente cif" id="09FAD8A1-BBCC-4BAC-AAAA-054D1A578FF1">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>09FAD8A1-BBCC-4BAC-AAAA-054D1A578FF1</generatorID>
@@ -159,10 +159,24 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="correo_huella" id="183DAEE5-C901-4FDB-8435-FE4956FBF357">
+<Attribute name="correo huella" id="183DAEE5-C901-4FDB-8435-FE4956FBF357">
 <createdBy>moka</createdBy>
 <createdTime>2026-11-22 23:12:55 UTC</createdTime>
 <generatorID>183DAEE5-C901-4FDB-8435-FE4956FBF357</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut huella" id="5F64C465-1756-2AB4-31C2-7AB2D561A113">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-23 14:15:45 UTC</createdTime>
+<generatorID>39697CE9-B477-4060-9109-233785445B6B</generatorID>
 <ownerDesignName>BOVEDA</ownerDesignName>
 <engineerTo>
 <item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
@@ -183,10 +197,46 @@
 <engineerTo>
 <item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
 </engineerTo>
-<pk>true</pk>
 <newElementsIDs>1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC</newElementsIDs>
 <usedAttributes>
 <attributeRef>1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FA30415B-4393-10A9-60D5-7223D0B05242" name="CLIENTE BOV PK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-23 14:15:45 UTC</createdTime>
+<generatorID>9DA13010-138C-49B0-B7CA-0942E98DA0CA</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B3B4A48-1CA4-4BB9-9FCE-CFFCEF5F66FC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1412BBBE-DA4D-A585-7F72-6AC272BE3EDF" name="CLIENTE BOV RUT HUELLA UK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-23 14:15:45 UTC</createdTime>
+<generatorID>E40B6B48-3E72-4502-92D4-F1DCF6B19D75</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>5F64C465-1756-2AB4-31C2-7AB2D561A113</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D451284D-9ED2-176E-2867-A83619B3E882" name="CLIENTE BOV CORREO HUELLA UK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-11-23 14:15:45 UTC</createdTime>
+<generatorID>5A8A2805-B3B1-4BF1-ACDA-03CF44E3CECA</generatorID>
+<ownerDesignName>BOVEDA</ownerDesignName>
+<engineerTo>
+<item key="91355EE9-A0C1-42B5-AEDC-78FC16A7CFCA" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>183DAEE5-C901-4FDB-8435-FE4956FBF357</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

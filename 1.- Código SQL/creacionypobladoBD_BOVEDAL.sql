@@ -1,11 +1,7 @@
 --==============================================================================
 -- CREACION Y POBLADO - BASE DE DATOS BOVEDA (Ley 21.719)
 --==============================================================================
--- SCRIPT AUTOCONTENIDO: no necesita creacionypobladoTABLAS.sql ni tablas auxiliares.
--- Todos los IDs estan escritos como HEXTORAW de 32 caracteres hexadecimales y son los
--- mismos que se usan en el script operativo. Los datos sensibles se cifran al vuelo con
--- pkg_cifrado.cifrar() y se indexan con pkg_cifrado.huella().
---
+
 
 --==============================================================================
 -- 2) REINICIO DE TABLAS DE LA BOVEDA

@@ -1,12 +1,6 @@
 --==============================================================================
 -- CREACION Y POBLADO - BASE DE DATOS OPERATIVA (Ley 21.719)
 --==============================================================================
--- SCRIPT AUTOCONTENIDO: no necesita creacionypobladoTABLAS.sql ni tablas auxiliares.
--- Todos los IDs estan escritos como HEXTORAW de 32 caracteres hexadecimales y son los
--- mismos que se usan en el script de la boveda. Para verlos: SELECT RAWTOHEX(id_cliente) FROM cliente_op;
--- Datos sensibles (RUT, nombre, correo, telefono, salud) NO se copian a esta base.
--- anio_nac_* queda generalizado al 1 de enero del anio.
---
 
 --==============================================================================
 -- 2) REINICIO DE TABLAS DE LA BD OPERATIVA

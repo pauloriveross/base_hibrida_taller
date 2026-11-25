@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4395027-A313-D257-5F94-FAB3D7119491" name="BLOQUE_HORARIO">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:49:08 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_bloque" id="0DD01537-8B81-D91E-BA7B-DF898BB88754">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:49:17 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia_bloque" id="853577B7-1067-5710-B70E-18A296A42139">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:49:27 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_bloque" id="006B6CE8-59B7-0FE4-C2A4-0B5B18BECFC8">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:50:01 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agendar" id="9B4A2952-F4BD-EEE7-2A6F-1E36BC12EDCC">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-30 02:27:13 UTC</createdTime>
+<generatorID>31EDF1F4-8D38-85A5-E489-C35C2F5312A2</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>318F7183-FEF1-D68F-6DC8-46AE3AD64521</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_agendar" id="6CBDB0DF-5EC9-3A7C-E2A1-59913C1F7AD1">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-30 02:27:13 UTC</createdTime>
+<generatorID>31EDF1F4-8D38-85A5-E489-C35C2F5312A2</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>807657CE-83EE-4243-1E38-42E260060510</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F26459E-4D05-5095-A31A-2965D4A00FA5" name="BLOQUE_HORARIO PK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:49:26 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DD01537-8B81-D91E-BA7B-DF898BB88754</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

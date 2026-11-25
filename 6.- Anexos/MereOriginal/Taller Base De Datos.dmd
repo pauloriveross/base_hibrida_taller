@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Taller Base De Datos" id="5803D48A-4879-6958-F8CD-509F104C2484" version="3.5">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-21 01:43:29 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5803D48A-4879-6958-F8CD-509F104C2484</designId>
+</OSDM_Design>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESPECIFICAR" directorySegmentName="seg_0" id="EE88E2A9-09C1-0F00-5F5E-DB58B2998B2A">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:54:14 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>E17999D4-3670-3C0D-8044-AA1B0C1FC5A8</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>especifica</nameOnSource>
+<nameOnTarget>es especificada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD42B913-6F2B-521E-58CC-482DC8BA1F28</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB97C6A2-6AB7-AB75-6D74-E7AC0FF6F0E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7FF9B9E6-3E2A-72CD-8745-76A9CD422725">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-21 01:43:29 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

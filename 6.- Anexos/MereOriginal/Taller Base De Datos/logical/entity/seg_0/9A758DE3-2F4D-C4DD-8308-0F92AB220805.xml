@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A758DE3-2F4D-C4DD-8308-0F92AB220805" name="CENTRO_DEP">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-09-14 12:55:11 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_centro" id="955A5DDC-50F8-39B8-756D-85D36679C980">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-09-14 12:55:21 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_centro" id="0C24D84E-8840-A4CF-0B3C-D570601900B9">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-09-14 12:55:48 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_centro" id="DE2FC4ED-C991-47F1-8CE5-9E2891179CD5">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-09-14 12:59:51 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="9CA97169-A1AF-8426-7C5B-5C979DC8C390">
+<createdBy>paulo</createdBy>
+<createdTime>2026-09-14 18:44:16 UTC</createdTime>
+<generatorID>DAD8DAE2-2A25-CAEF-5D8A-0AB0D874E1E1</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>67F76670-8BE0-BCB9-0C15-827F3FC84B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dir_centro" id="50B69E1F-808A-E1FE-CC03-7D8571295C9A">
+<createdBy>paulo</createdBy>
+<createdTime>2026-09-14 18:47:18 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19CE8C90-D4CA-1400-EA1E-FD0517151C87" name="CENTRO_DEP_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-09-14 12:55:46 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>955A5DDC-50F8-39B8-756D-85D36679C980</newElementsIDs>
+<usedAttributes>
+<attributeRef>955A5DDC-50F8-39B8-756D-85D36679C980</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

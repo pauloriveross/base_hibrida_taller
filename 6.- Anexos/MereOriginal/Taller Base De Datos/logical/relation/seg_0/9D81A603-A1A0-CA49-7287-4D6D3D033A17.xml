@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="APLICAR" directorySegmentName="seg_0" id="9D81A603-A1A0-CA49-7287-4D6D3D033A17">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 23:10:07 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>69E7C950-71A9-2CA1-A857-84162FFE7C63</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>aplica</nameOnSource>
+<nameOnTarget>es aplicada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A188DA2-54F2-8763-D01B-DC81D5B0077B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DAD26EAD-3D74-C227-2551-549930878A41</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

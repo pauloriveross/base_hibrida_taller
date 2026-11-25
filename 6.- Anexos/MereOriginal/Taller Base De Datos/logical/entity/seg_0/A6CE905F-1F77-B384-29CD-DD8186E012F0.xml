@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6CE905F-1F77-B384-29CD-DD8186E012F0" name="EJERCICIO">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:37:20 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ejercicio" id="9277BA8B-0F06-6DF1-A293-24F4A876B2AE">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:37:46 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ejercicio" id="24CBDF87-F2EA-D3CD-3FA9-A23C99CFB2F0">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:40:28 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_ejercicio" id="8993C2DF-1C54-C13A-4FDC-698D2A5DC3D2">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:40:46 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="repeticiones_ejercicio" id="840B99E6-65C8-4226-F5DC-DF6F0E56F876">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:41:04 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso_ejercicio" id="70D10DC4-5D2C-0AE0-74BD-DA2B20961275">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:41:24 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6E192FC-BB6C-6834-00C2-A7D4A593B95D" name="EJERCICIO PK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:40:22 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9277BA8B-0F06-6DF1-A293-24F4A876B2AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70D486B2-4E05-A777-D8A8-489D47354B9F" name="PREPARADOR_FISICO">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:30:32 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_prep" id="7F22DEC1-17EB-A415-FA29-0C3C179348D2">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:15 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pnombre_preparador" id="88382AAA-9836-4954-199B-E43292250860">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:35 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="snombre_preparador" id="E0C15092-4912-8CBE-5D9E-B030B90BDF68">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:52 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="papellido_preparador" id="1287D43C-CCFE-6646-F991-9EDE02615F56">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:32:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sapellido_preparador" id="EDC5A9FF-35D5-ED7D-3694-8A526317729E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:32:29 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac_preparador" id="1FDB907E-2060-BE17-98FF-23C3CF8F9F5A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:32:44 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad_preparador" id="FF64FCE3-BABA-EF6A-9BF1-89DCED86D958">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:36:14 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="50241274-DA71-22EB-B63B-1218D81E972C">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-29 00:13:18 UTC</createdTime>
+<generatorID>214BD4A7-2D60-7671-4103-CDD64F07B9D6</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>67F76670-8BE0-BCB9-0C15-827F3FC84B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_preparador" id="32CD5755-85FE-0D27-A137-2E5442A201C3">
+<createdBy>moka</createdBy>
+<createdTime>2026-09-03 02:23:51 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_preparador" id="C0291BA2-4178-4F5E-ADA5-C58C7B43D1D1">
+<createdBy>moka</createdBy>
+<createdTime>2026-09-03 02:24:11 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98D6FC0A-BA07-E372-CDDF-6E7AB5907D95" name="PREPARADOR FISICO PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:31:34 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F22DEC1-17EB-A415-FA29-0C3C179348D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

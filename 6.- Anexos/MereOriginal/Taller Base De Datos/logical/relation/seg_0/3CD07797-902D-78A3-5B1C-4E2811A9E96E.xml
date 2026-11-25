@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLEA" directorySegmentName="seg_0" id="3CD07797-902D-78A3-5B1C-4E2811A9E96E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-09-14 12:58:40 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="7D5BAE45-853B-C04D-4B79-699E39A15880" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>emplea</nameOnSource>
+<nameOnTarget>es empleado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>70D486B2-4E05-A777-D8A8-489D47354B9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9A758DE3-2F4D-C4DD-8308-0F92AB220805</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

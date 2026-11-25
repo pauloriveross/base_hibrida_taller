@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPAREJAR" directorySegmentName="seg_0" id="FB57AE8B-E09A-F2DA-4905-F083390DC75B">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-29 00:14:00 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>D4F01A40-1793-E7B0-A2DA-9BEC5ED1AC0D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>empareja</nameOnSource>
+<nameOnTarget>es emparejado</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E563BA75-FECD-D2C0-ED83-C3FFD62481BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97C06892-37AD-B44F-14B2-D7260C63932B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

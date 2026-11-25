@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SUSCRIBIR" directorySegmentName="seg_0" id="D8D7C968-3772-2EC1-5F47-958552238902">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 22:57:38 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>4ED7F267-82FA-1E57-C40A-AC033547862C</sourcePk>
+<targetPk>9993CA8A-5352-9668-B4E7-12BDDB856CBE</targetPk>
+<identifying>false</identifying>
+<nameOnSource>suscribir</nameOnSource>
+<nameOnTarget>es suscrito</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>97C06892-37AD-B44F-14B2-D7260C63932B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>342C01D5-A959-8112-01CD-ED7332CA13A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

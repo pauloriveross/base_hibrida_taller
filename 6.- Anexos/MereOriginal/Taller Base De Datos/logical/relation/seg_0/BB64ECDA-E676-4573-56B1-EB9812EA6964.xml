@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GENERAR" directorySegmentName="seg_0" id="BB64ECDA-E676-4573-56B1-EB9812EA6964">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 23:01:25 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>BF60D0B7-3C26-4790-D6EF-63DDAB13E39E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>genera</nameOnSource>
+<nameOnTarget>es generado</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AA551FCA-D83E-4FBB-355E-5236553207F2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7DD684C2-D1BE-A25F-9DFD-17F77D26584E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SUBDIVIDIR" directorySegmentName="seg_0" id="D7B1A412-8097-6AF4-3D95-8D3A7DF7DB80">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-22 16:05:13 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>98AC59C0-26ED-D9F6-28FA-CE35CFE2EFD0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>se subdivide</nameOnSource>
+<nameOnTarget>es subdividida</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2ECB5A96-C02C-09F0-B0DF-2F39C2469A6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E563BA75-FECD-D2C0-ED83-C3FFD62481BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

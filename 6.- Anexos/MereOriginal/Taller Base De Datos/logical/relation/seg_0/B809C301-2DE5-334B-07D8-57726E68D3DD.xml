@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOCUMENTAR" directorySegmentName="seg_0" id="B809C301-2DE5-334B-07D8-57726E68D3DD">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 23:02:20 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>FD0602CF-F8D8-93F0-9FCE-DB4F3E4CB375</sourcePk>
+<targetPk>D6128E3A-9017-82BD-1A0C-695BADE9EFC8</targetPk>
+<identifying>false</identifying>
+<nameOnSource>documenta</nameOnSource>
+<nameOnTarget>es documentada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DD684C2-D1BE-A25F-9DFD-17F77D26584E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>51457455-FF99-3BC2-8B9F-E4FF99F5C10C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

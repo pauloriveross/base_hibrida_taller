@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E96A610C-8CD4-5961-31FB-553D80A4CB8F" mainViewID="720C5934-7BD9-BF75-AE0C-A86BE545A2D6">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-21 01:43:29 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

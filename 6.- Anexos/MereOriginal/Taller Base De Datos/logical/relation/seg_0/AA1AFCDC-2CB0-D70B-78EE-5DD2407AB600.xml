@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERTENECE" directorySegmentName="seg_0" id="AA1AFCDC-2CB0-D70B-78EE-5DD2407AB600">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-22 16:04:41 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<sourcePk>DD3C5E2B-6A2D-A55E-22D1-3E6ACA2490D0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contiene</nameOnSource>
+<nameOnTarget>es contenida</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>634DE76C-D199-C0DE-DF36-C6506337EE7F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2ECB5A96-C02C-09F0-B0DF-2F39C2469A6F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

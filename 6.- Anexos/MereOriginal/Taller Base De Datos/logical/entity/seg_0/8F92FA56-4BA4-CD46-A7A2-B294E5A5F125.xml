@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F92FA56-4BA4-CD46-A7A2-B294E5A5F125" name="AGENDA">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:46:32 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_agendar" id="318F7183-FEF1-D68F-6DC8-46AE3AD64521">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:46:39 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_agendar" id="807657CE-83EE-4243-1E38-42E260060510">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:47:32 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_agendar" id="69A42877-7962-FD6B-DDBF-47007CB9DB14">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:47:47 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_agendar" id="4000C3F7-7768-A83F-DE5C-D653BD2C1A5E">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:48:11 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_prep" id="321A0003-01E2-4266-5FF2-C355A8A300A8">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 23:11:17 UTC</createdTime>
+<generatorID>FCE98474-9136-9B43-A9A7-D488D3414118</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>7F22DEC1-17EB-A415-FA29-0C3C179348D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="328BF46B-6295-DA8C-6D1A-1DB5A423525D">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-28 23:18:16 UTC</createdTime>
+<generatorID>588D959E-CF78-E5D4-A855-E8293ACBB4F2</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>4C4AD86F-A81D-0B7F-347F-18872B98F7B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="79B8D3A9-092E-4578-8DE1-D1C747ECBCD8">
+<createdBy>moka</createdBy>
+<createdTime>2026-10-25 00:00:00 UTC</createdTime>
+<generatorID>748741AB-DAB5-47D9-B1CD-DAA9F37D601C</generatorID>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<referedAttribute>D46B7DE7-07EF-F214-B7EC-0F75F5090842</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5A576A9-FDF4-C6F0-9E75-09F68C5A3EA3" name="AGENDAR PK">
+<createdBy>paulo</createdBy>
+<createdTime>2026-08-23 14:47:31 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<engineerTo>
+<item key="65D13D49-1303-ADAB-B81A-DBD275312825" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>318F7183-FEF1-D68F-6DC8-46AE3AD64521</attributeRef>
+<attributeRef>807657CE-83EE-4243-1E38-42E260060510</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

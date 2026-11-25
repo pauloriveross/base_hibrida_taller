@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D93E83A5-550B-4BF6-D16E-13A2F3DEFA99">
+<createdBy>moka</createdBy>
+<createdTime>2026-08-21 01:43:29 UTC</createdTime>
+<ownerDesignName>Taller Base De Datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

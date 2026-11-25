@@ -2,6 +2,32 @@
 --==============================================================================
 --CREACION DE TABLAS BASE DE DATOS OPERACIONAL 
 --==============================================================================
+-- 0) REINICIO (para que el script se pueda ejecutar mas de una vez)
+--    Sin estos DROP, una segunda ejecucion da ORA-00955 / ORA-02260
+--    ("la tabla solo puede tener una clave primaria").
+--    Si alguna tabla no existe, Oracle avisa ORA-00942 pero continua.
+DROP TABLE sesion_entre_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE contener CASCADE CONSTRAINTS PURGE;
+DROP TABLE rutina_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE definir CASCADE CONSTRAINTS PURGE;
+DROP TABLE ofrecer CASCADE CONSTRAINTS PURGE;
+DROP TABLE bloq_horario_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE factura_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE pago_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE agenda_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE ficha_cliente_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE cont_cli_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE plan_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE centro_dep_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE prep_fisico_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE cliente_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE met_pago_cli_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE ejercicio_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE comuna_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE ciudad_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE region_op CASCADE CONSTRAINTS PURGE;
+DROP TABLE pais_op CASCADE CONSTRAINTS PURGE;
+
 CREATE TABLE agenda_op (
     id_agenda              RAW(16) NOT NULL,
     fecha_agendar          DATE NOT NULL,
@@ -88,7 +114,7 @@ ALTER TABLE definir ADD CONSTRAINT definir_pk PRIMARY KEY ( prep_fisico_op_id_pr
 CREATE TABLE ejercicio_op (
     id_ejercicio     RAW(16) NOT NULL,
     nombre_ejercicio VARCHAR2(50) NOT NULL,
-    desc_ejercicio   VARCHAR2(100) NOT NULL,
+    desc_ejercicio   VARCHAR2(200 CHAR) NOT NULL,  -- descripcion original completa (max 140 chars)
     reps_ejercicio   NUMBER(2) NOT NULL,
     peso_ejercicio   NUMBER(3)
 );
@@ -121,7 +147,7 @@ ALTER TABLE ficha_cliente_op ADD CONSTRAINT ficha_cliente_op_pk PRIMARY KEY ( id
 CREATE TABLE met_pago_cli_op (
     id_met_pago      RAW(16) NOT NULL,
     nombre_met_pago  VARCHAR2(30) NOT NULL,
-    desc_metodo_pago VARCHAR2(50) NOT NULL
+    desc_metodo_pago VARCHAR2(100 CHAR) NOT NULL  -- descripcion original completa (max 64 chars)
 );
 
 ALTER TABLE met_pago_cli_op ADD CONSTRAINT met_pago_cli_op_pk PRIMARY KEY ( id_met_pago );

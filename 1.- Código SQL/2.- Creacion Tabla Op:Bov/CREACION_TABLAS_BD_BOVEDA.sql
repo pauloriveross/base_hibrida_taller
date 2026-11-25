@@ -1,13 +1,15 @@
--- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   en:        2026-11-23 11:16:10 CLST
---   sitio:      Oracle Database 11g
---   tipo:      Oracle Database 11g
-
-
-
--- predefined type, no DDL - MDSYS.SDO_GEOMETRY
-
--- predefined type, no DDL - XMLTYPE
+--==============================================================================
+-- 0) REINICIO (para que el script se pueda ejecutar mas de una vez)
+--    Sin estos DROP, una segunda ejecucion da ORA-00955 / ORA-02260
+--    ("la tabla solo puede tener una clave primaria").
+--    Si alguna tabla no existe, Oracle avisa ORA-00942 pero continua.
+--==============================================================================
+DROP TABLE PROGRESO_CLI_BOV CASCADE CONSTRAINTS PURGE;
+DROP TABLE PATOLOGIA_BOV CASCADE CONSTRAINTS PURGE;
+DROP TABLE METRICA_CLI_BOV CASCADE CONSTRAINTS PURGE;
+DROP TABLE FICHA_CLIENTE_BOV CASCADE CONSTRAINTS PURGE;
+DROP TABLE PREPARADOR_BOV CASCADE CONSTRAINTS PURGE;
+DROP TABLE CLIENTE_BOV CASCADE CONSTRAINTS PURGE;
 
 CREATE TABLE CLIENTE_BOV 
     ( 
@@ -117,47 +119,3 @@ CREATE TABLE PROGRESO_CLI_BOV
 ALTER TABLE PROGRESO_CLI_BOV 
     ADD CONSTRAINT PROGRESO_CLI_BOV_PK PRIMARY KEY ( id_progreso ) ;
 
-
-
--- Informe de Resumen de Oracle SQL Developer Data Modeler: 
--- 
--- CREATE TABLE                             6
--- CREATE INDEX                             0
--- ALTER TABLE                             10
--- CREATE VIEW                              0
--- ALTER VIEW                               0
--- CREATE PACKAGE                           0
--- CREATE PACKAGE BODY                      0
--- CREATE PROCEDURE                         0
--- CREATE FUNCTION                          0
--- CREATE TRIGGER                           0
--- ALTER TRIGGER                            0
--- CREATE COLLECTION TYPE                   0
--- CREATE STRUCTURED TYPE                   0
--- CREATE STRUCTURED TYPE BODY              0
--- CREATE CLUSTER                           0
--- CREATE CONTEXT                           0
--- CREATE DATABASE                          0
--- CREATE DIMENSION                         0
--- CREATE DIRECTORY                         0
--- CREATE DISK GROUP                        0
--- CREATE ROLE                              0
--- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          0
--- CREATE MATERIALIZED VIEW                 0
--- CREATE MATERIALIZED VIEW LOG             0
--- CREATE SYNONYM                           0
--- CREATE TABLESPACE                        0
--- CREATE USER                              0
--- 
--- DROP TABLESPACE                          0
--- DROP DATABASE                            0
--- 
--- REDACTION POLICY                         0
--- 
--- ORDS DROP SCHEMA                         0
--- ORDS ENABLE SCHEMA                       0
--- ORDS ENABLE OBJECT                       0
--- 
--- ERRORS                                   0
--- WARNINGS                                 0

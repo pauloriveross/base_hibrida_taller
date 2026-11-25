@@ -6,6 +6,16 @@
 -- mismos que se usan en el script operativo. Los datos sensibles se cifran al vuelo con
 -- pkg_cifrado.cifrar() y se indexan con pkg_cifrado.huella().
 --
+-- FORMA DE EJECUTAR (importante):
+--   1) Como SYS/DBA ejecutar Creacion Usuario EV3/CREACION_USUARIOS_EV3.sql
+--      (ahora incluye los GRANT de DBMS_CRYPTO, UTL_RAW y UTL_I18N).
+--   2) Conectarse como ADMIN_FIT_BOV y ejecutar SOLO este archivo (F5).
+--      Ya hace DROP + CREATE + INSERT, asi que no hace falta ejecutar antes
+--      CREACION_TABLAS_BD_BOVEDAL.sql (ese archivo ahora tambien es re-ejecutable).
+--   3) Verificar: SELECT status FROM user_objects
+--                  WHERE object_name = 'PKG_CIFRADO';
+--      Debe decir VALID. Si dice INVALID: SHOW ERRORS PACKAGE BODY pkg_cifrado.
+--
 
 --==============================================================================
 -- 2) REINICIO DE TABLAS DE LA BOVEDA
@@ -20,17 +30,6 @@ DROP TABLE CLIENTE_BOV CASCADE CONSTRAINTS PURGE;
 --==============================================================================
 -- 3) DDL DE LA BOVEDA (copiado de CREACION_TABLAS_BD_BOVEDAL.sql)
 --==============================================================================
-
--- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   en:        2026-11-23 11:16:10 CLST
---   sitio:      Oracle Database 11g
---   tipo:      Oracle Database 11g
-
-
-
--- predefined type, no DDL - MDSYS.SDO_GEOMETRY
-
--- predefined type, no DDL - XMLTYPE
 
 CREATE TABLE CLIENTE_BOV 
     ( 
